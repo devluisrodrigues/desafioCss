@@ -78,3 +78,17 @@ body {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 } 
+
+.appbar{
+  background-color: #f7d736;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);  
+}
+
+.logo{
+  width: 5%;
+  height: auto;
+  margin-right: 10px;
+}
