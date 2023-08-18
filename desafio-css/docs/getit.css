@@ -92,21 +92,31 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-width: 250px; /* Largura mínima para manter uma aparência decente */
-  padding: 20px; /* Adiciona algum espaço interno */
+  border: none;
+  min-width: 35%; /* Largura mínima para manter uma aparência decente */
+  min-height: 17%; /* Altura mínima para manter uma aparência decente */
+  padding: 10px; /* Adiciona algum espaço interno */
   background-color: white;
   border-radius: 5px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.6);
 }
 
-.form-card-title,
+.form-card-title{
+  border: none;
+  font-weight: bold;
+  font-size: medium;
+  height: 30%;
+  width: 100%; /* Faz com que os campos de entrada e a área de texto preencham toda a largura do cartão */
+}
 .autoresize {
+  border: none;
   width: 100%; /* Faz com que os campos de entrada e a área de texto preencham toda a largura do cartão */
 }
 
 .btn {
+  height: 30px;
   width: 100%; /* Faz com que o botão preencha toda a largura do cartão */
-  padding: 10px; /* Adiciona algum espaço interno ao botão */
+  padding: 0px; /* Adiciona algum espaço interno ao botão */
   cursor: pointer; /* Muda o cursor para um ponteiro quando o usuário passa o mouse sobre o botão */
 }
 
