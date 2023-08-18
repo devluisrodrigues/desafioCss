@@ -86,17 +86,30 @@ body {
   justify-content: center;
   height: 100vh;
 }
-.form-card{
+
+.form-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 250px;
-  height: 100px;
-  background-color:  white;
+  min-width: 250px; /* Largura mínima para manter uma aparência decente */
+  padding: 20px; /* Adiciona algum espaço interno */
+  background-color: white;
   border-radius: 5px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
+
+.form-card-title,
+.autoresize {
+  width: 100%; /* Faz com que os campos de entrada e a área de texto preencham toda a largura do cartão */
+}
+
+.btn {
+  width: 100%; /* Faz com que o botão preencha toda a largura do cartão */
+  padding: 10px; /* Adiciona algum espaço interno ao botão */
+  cursor: pointer; /* Muda o cursor para um ponteiro quando o usuário passa o mouse sobre o botão */
+}
+
 .appbar{
   background-color: #f7d736;
   display: flex;
